@@ -12,6 +12,17 @@ namespace Polymorphism
         {
             Console.WriteLine("Polymorphism");
 
+            EnemyManager enemyManager = new EnemyManager();
+
+
+            while(true)
+            {
+                enemyManager.Draw();
+                //
+                //
+                enemyManager.Update();
+            }
+
             Console.ReadKey(true);
         }
     }
